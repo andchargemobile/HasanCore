@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HasanCores_Tests' do
+  pod 'HasanCores', :path => '../'
+  
+  
+end
