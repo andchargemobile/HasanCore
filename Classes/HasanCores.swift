@@ -1,5 +1,5 @@
 //
-//  HasanCore.swift
+//  HasanCores.swift
 //  HasanCores
 //
 //  Created by GoodieMac2 on 14/06/19.
@@ -7,7 +7,8 @@
 
 import Foundation
 
-public class HasanCore: NSObject {
+
+public class HasanCores: NSObject {
     
     public override init(){
         super.init()
