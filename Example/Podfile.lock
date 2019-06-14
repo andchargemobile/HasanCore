@@ -1,0 +1,16 @@
+PODS:
+  - HasanCores (0.1.0)
+
+DEPENDENCIES:
+  - HasanCores (from `../`)
+
+EXTERNAL SOURCES:
+  HasanCores:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HasanCores: 7b18b55213b127d4ce727c6be6d398d3258a7a27
+
+PODFILE CHECKSUM: 9ebeaef381e53594155f157aafe5107a3c53ff3f
+
+COCOAPODS: 1.7.2

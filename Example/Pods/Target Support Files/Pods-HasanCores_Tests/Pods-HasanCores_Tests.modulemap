@@ -1,0 +1,6 @@
+framework module Pods_HasanCores_Tests {
+  umbrella header "Pods-HasanCores_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
