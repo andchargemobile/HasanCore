@@ -1,5 +1,5 @@
 //
-//  LogRes.swift
+//  LoginResponse.swift
 //  HasanCores
 //
 //  Created by GoodieMac2 on 18/06/19.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class LogRes: Decodable {
+public struct LoginResponse: Decodable {
     
     public var authToken: String?
     public var authDevice: String?

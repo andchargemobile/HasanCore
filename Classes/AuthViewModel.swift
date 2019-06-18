@@ -11,11 +11,11 @@ import Foundation
 class AuthViewModel {
     
     let api = Global.instance.api
-    var loginRes: LogRes?
+    var loginRes: LoginResponse?
     
-    func doLogin(request: LoginRequest, completion: @escaping(LogRes) -> Void, onError: @escaping(Error) -> Void){
+    func doLogin(request: LoginRequest, completion: @escaping(LoginResponse) -> Void, onError: @escaping(Error) -> Void){
         let headers = ["Content-Type": "application/json"]
-        ClientConnect(baseURL: api.uri(.login)).post(LogRes.self, params: nil, body: request, headers: headers){
+        ClientConnect(baseURL: api.uri(.login)).post(LoginResponse.self, params: nil, body: request, headers: headers){
             (result, resp, err) in
             
             if err != nil {

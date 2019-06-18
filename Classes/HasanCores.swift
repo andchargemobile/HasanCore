@@ -15,10 +15,10 @@ public class HasanCores: NSObject {
     }
     
     
-    public class func login(deviceUniqueId: String, username: String, password: String, merchantCode: String, completion: @escaping(LogRes) -> Void, onError: @escaping(Error)-> Void){
+    public class func login(deviceUniqueId: String, username: String, password: String, merchantCode: String, completion: @escaping(LoginResponse) -> Void, onError: @escaping(Error)-> Void){
         let log = LoginRequest(deviceUniqueId: deviceUniqueId, username: username, password: password, merchantCode: merchantCode)
         let vm = Global.locator.auth
-        vm.doLogin(request: log, completion: { (res:LogRes) in
+        vm.doLogin(request: log, completion: { (res:LoginResponse) in
             completion(res)
         }) { (error:Error) in
             onError(error)

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class AbstractResponse: Codable {
+public struct AbstractResponse: Codable {
     public var responseStatus: String
     public var responseMessage: String
 }
