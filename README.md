@@ -11,6 +11,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Main Feature
+
+| Feature                                | Description                           |
+| ------------------------------- | :------------------------------: |
+| Lite Version Goodie SDK     | Goodie SDK without UI       |
+
 
 
 
