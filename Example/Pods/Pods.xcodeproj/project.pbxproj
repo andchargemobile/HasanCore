@@ -144,17 +144,13 @@
 		74A4FB9522B3A6440008BF97 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				74A4FC1522B8E8020008BF97 /* Resp */,
+				74A4FC1422B8E7F20008BF97 /* Req */,
+				74A4FC1122B8E7810008BF97 /* Api */,
+				74A4FC0F22B8E7560008BF97 /* Service */,
 				74A4FC0B22B8E1EB0008BF97 /* ViewModel */,
 				74A4FB9822B3A8260008BF97 /* HasanCores.swift */,
-				74A4FBF722B8CA460008BF97 /* Service.swift */,
-				74A4FBF922B8CA5F0008BF97 /* Route.swift */,
-				74A4FBFB22B8CA710008BF97 /* Api.swift */,
-				74A4FBFD22B8CB9E0008BF97 /* ClientConnect.swift */,
-				74A4FBFF22B8CCBE0008BF97 /* AbstractResponse.swift */,
-				74A4FC0122B8CCDE0008BF97 /* LoginRequest.swift */,
 				74A4FC0522B8CD4B0008BF97 /* Global.swift */,
-				74A4FC0722B8CD760008BF97 /* Locator.swift */,
-				74A4FC0922B8DD530008BF97 /* LoginResponse.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -162,9 +158,45 @@
 		74A4FC0B22B8E1EB0008BF97 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				74A4FC0722B8CD760008BF97 /* Locator.swift */,
 				74A4FC0C22B8E1FD0008BF97 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74A4FC0F22B8E7560008BF97 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				74A4FBFD22B8CB9E0008BF97 /* ClientConnect.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		74A4FC1122B8E7810008BF97 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				74A4FBFB22B8CA710008BF97 /* Api.swift */,
+				74A4FBF922B8CA5F0008BF97 /* Route.swift */,
+				74A4FBF722B8CA460008BF97 /* Service.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		74A4FC1422B8E7F20008BF97 /* Req */ = {
+			isa = PBXGroup;
+			children = (
+				74A4FC0122B8CCDE0008BF97 /* LoginRequest.swift */,
+			);
+			path = Req;
+			sourceTree = "<group>";
+		};
+		74A4FC1522B8E8020008BF97 /* Resp */ = {
+			isa = PBXGroup;
+			children = (
+				74A4FC0922B8DD530008BF97 /* LoginResponse.swift */,
+				74A4FBFF22B8CCBE0008BF97 /* AbstractResponse.swift */,
+			);
+			path = Resp;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
