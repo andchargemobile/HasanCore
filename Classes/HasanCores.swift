@@ -27,7 +27,6 @@ public class HasanCores: NSObject {
     
     
     
-    
     public class func cetak(name: String){
         consolLog(name: name)
     }
