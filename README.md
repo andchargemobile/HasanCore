@@ -12,6 +12,26 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 
+
+
+## Featur Goodie
+
+- [x] Register
+- [x] Login
+- [x] Verification Member
+- [x] Member Point
+- [x] Member Profile
+- [x] Promotion Inquiry
+- [x] Promotion Posting
+- [x] Voucher Balance
+- [x] Voucher Redeem
+- [x] Reward List
+- [x] Reward Redeem
+- [x] List History
+- [x] Update Profile
+- [x] Change Password
+
+
 ## Installation
 
 CocoaPods is a dependency manager for Cocoa projects. You can install it with the following command:
