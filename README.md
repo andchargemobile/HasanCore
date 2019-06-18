@@ -11,13 +11,31 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+
 ## Installation
 
-HasanCores is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+CocoaPods is a dependency manager for Cocoa projects. You can install it with the following command:
 
-```ruby
-pod 'HasanCores'
+```
+$ gem install cocoapods
+```
+
+To integrate HasanCores into your Xcode project using CocoaPods, specify it in your Podfile:
+
+```
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+pod 'HasanCores',
+end
+```
+
+Then, run the following command:
+
+```
+$ pod install
 ```
 
 ## Author
