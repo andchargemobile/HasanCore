@@ -14,6 +14,12 @@ public class HasanCores: NSObject {
         super.init()
     }
     
+    
+    public class func login(deviceUniqueId: String, username: String, password: String, merchantCode: String, completion: @escaping(LoginResponse) -> Void, onError: @escaping(Error)-> Void){
+       
+    }
+    
+    
     public class func cetak(name: String){
         consolLog(name: name)
     }
