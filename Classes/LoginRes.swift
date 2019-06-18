@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct LoginRes: Decodable {
+public class LoginRes: Decodable {
     
     public var authToken: String?
     public var authDevice: String?
