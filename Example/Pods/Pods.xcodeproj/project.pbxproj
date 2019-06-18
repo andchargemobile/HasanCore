@@ -16,10 +16,10 @@
 		74A4FBFE22B8CB9E0008BF97 /* ClientConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FBFD22B8CB9E0008BF97 /* ClientConnect.swift */; };
 		74A4FC0022B8CCBE0008BF97 /* AbstractResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FBFF22B8CCBE0008BF97 /* AbstractResponse.swift */; };
 		74A4FC0222B8CCDE0008BF97 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FC0122B8CCDE0008BF97 /* LoginRequest.swift */; };
-		74A4FC0422B8CD0C0008BF97 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FC0322B8CD0C0008BF97 /* AuthViewModel.swift */; };
 		74A4FC0622B8CD4B0008BF97 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FC0522B8CD4B0008BF97 /* Global.swift */; };
 		74A4FC0822B8CD760008BF97 /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FC0722B8CD760008BF97 /* Locator.swift */; };
 		74A4FC0A22B8DD530008BF97 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FC0922B8DD530008BF97 /* LoginResponse.swift */; };
+		74A4FC0D22B8E1FD0008BF97 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FC0C22B8E1FD0008BF97 /* LoginViewModel.swift */; };
 		796853C5D7384367EDBB8CE6596518C7 /* Pods-HasanCores_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F85926CA227520872A2C04AD8ED559C /* Pods-HasanCores_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FCFF130B59E4F1C62D873D090EB1E93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B5B129278E30B63F3A9CA5C893AA27BB /* Pods-HasanCores_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F9DE137EA4DC1E725D6A563A5EA68 /* Pods-HasanCores_Tests-dummy.m */; };
@@ -53,10 +53,10 @@
 		74A4FBFD22B8CB9E0008BF97 /* ClientConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientConnect.swift; sourceTree = "<group>"; };
 		74A4FBFF22B8CCBE0008BF97 /* AbstractResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractResponse.swift; sourceTree = "<group>"; };
 		74A4FC0122B8CCDE0008BF97 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
-		74A4FC0322B8CD0C0008BF97 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		74A4FC0522B8CD4B0008BF97 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		74A4FC0722B8CD760008BF97 /* Locator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locator.swift; sourceTree = "<group>"; };
 		74A4FC0922B8DD530008BF97 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		74A4FC0C22B8E1FD0008BF97 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		7A01221CA3CDC2926120F57284D006A7 /* Pods-HasanCores_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HasanCores_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F85926CA227520872A2C04AD8ED559C /* Pods-HasanCores_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HasanCores_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8C93965F31645716AAE6A7B68CAFCEC0 /* Pods_HasanCores_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HasanCores_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +144,7 @@
 		74A4FB9522B3A6440008BF97 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				74A4FC0B22B8E1EB0008BF97 /* ViewModel */,
 				74A4FB9822B3A8260008BF97 /* HasanCores.swift */,
 				74A4FBF722B8CA460008BF97 /* Service.swift */,
 				74A4FBF922B8CA5F0008BF97 /* Route.swift */,
@@ -151,12 +152,19 @@
 				74A4FBFD22B8CB9E0008BF97 /* ClientConnect.swift */,
 				74A4FBFF22B8CCBE0008BF97 /* AbstractResponse.swift */,
 				74A4FC0122B8CCDE0008BF97 /* LoginRequest.swift */,
-				74A4FC0322B8CD0C0008BF97 /* AuthViewModel.swift */,
 				74A4FC0522B8CD4B0008BF97 /* Global.swift */,
 				74A4FC0722B8CD760008BF97 /* Locator.swift */,
 				74A4FC0922B8DD530008BF97 /* LoginResponse.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		74A4FC0B22B8E1EB0008BF97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74A4FC0C22B8E1FD0008BF97 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -335,7 +343,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A4FC0422B8CD0C0008BF97 /* AuthViewModel.swift in Sources */,
 				74A4FC0222B8CCDE0008BF97 /* LoginRequest.swift in Sources */,
 				74A4FBFC22B8CA710008BF97 /* Api.swift in Sources */,
 				74A4FBF822B8CA460008BF97 /* Service.swift in Sources */,
@@ -343,6 +350,7 @@
 				74A4FC0A22B8DD530008BF97 /* LoginResponse.swift in Sources */,
 				74A4FC0622B8CD4B0008BF97 /* Global.swift in Sources */,
 				74A4FC0022B8CCBE0008BF97 /* AbstractResponse.swift in Sources */,
+				74A4FC0D22B8E1FD0008BF97 /* LoginViewModel.swift in Sources */,
 				74A4FC0822B8CD760008BF97 /* Locator.swift in Sources */,
 				74A4FB9922B3A8260008BF97 /* HasanCores.swift in Sources */,
 				74A4FBFA22B8CA5F0008BF97 /* Route.swift in Sources */,

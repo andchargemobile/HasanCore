@@ -1,5 +1,5 @@
 //
-//  AuthViewModel.swift
+//  LoginViewModel.swift
 //  HasanCores
 //
 //  Created by GoodieMac2 on 18/06/19.
@@ -8,7 +8,7 @@
 import Foundation
 
 
-class AuthViewModel {
+class LoginViewModel {
     
     let api = Global.instance.api
     var loginRes: LoginResponse?
