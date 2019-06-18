@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HasanCores'
-  s.version          = '0.2.9'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of HasanCores.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'HasanCores/Classes/**/*'
-  s.source_files  = 'Classes/*.{h,m,swift}'
+  #s.source_files  = 'Classes/*.{h,m,swift}'
+  s.source_files =  'HasanCores/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'HasanCores' => ['HasanCores/Assets/*.png']
