@@ -12,6 +12,7 @@
 		74A4FB9922B3A8260008BF97 /* HasanCores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FB9822B3A8260008BF97 /* HasanCores.swift */; };
 		74A4FBD822B879D80008BF97 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FBD722B879D80008BF97 /* LoginRequest.swift */; };
 		74A4FBDB22B87A460008BF97 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FBDA22B87A460008BF97 /* LoginResponse.swift */; };
+		74A4FBDF22B87B8C0008BF97 /* LoginRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4FBDE22B87B8C0008BF97 /* LoginRes.swift */; };
 		796853C5D7384367EDBB8CE6596518C7 /* Pods-HasanCores_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F85926CA227520872A2C04AD8ED559C /* Pods-HasanCores_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FCFF130B59E4F1C62D873D090EB1E93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B5B129278E30B63F3A9CA5C893AA27BB /* Pods-HasanCores_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F9DE137EA4DC1E725D6A563A5EA68 /* Pods-HasanCores_Tests-dummy.m */; };
@@ -41,6 +42,7 @@
 		74A4FB9822B3A8260008BF97 /* HasanCores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasanCores.swift; sourceTree = "<group>"; };
 		74A4FBD722B879D80008BF97 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		74A4FBDA22B87A460008BF97 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		74A4FBDE22B87B8C0008BF97 /* LoginRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRes.swift; sourceTree = "<group>"; };
 		7A01221CA3CDC2926120F57284D006A7 /* Pods-HasanCores_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HasanCores_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F85926CA227520872A2C04AD8ED559C /* Pods-HasanCores_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HasanCores_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8C93965F31645716AAE6A7B68CAFCEC0 /* Pods_HasanCores_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HasanCores_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 				74A4FBD922B87A270008BF97 /* Response */,
 				74A4FBD622B879C70008BF97 /* Request */,
 				74A4FB9822B3A8260008BF97 /* HasanCores.swift */,
+				74A4FBDE22B87B8C0008BF97 /* LoginRes.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				74A4FB9922B3A8260008BF97 /* HasanCores.swift in Sources */,
 				74A4FBDB22B87A460008BF97 /* LoginResponse.swift in Sources */,
 				11C0C5A6449A6954B0509FB5E52A1DDF /* HasanCores-dummy.m in Sources */,
+				74A4FBDF22B87B8C0008BF97 /* LoginRes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
