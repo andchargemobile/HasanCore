@@ -21,5 +21,5 @@ public class LogRes: Decodable {
     public var birthDate: String?
     public var status: Int?
     public var qrImage: String?
-     public var abstractResponse: AbstractResponse?
+    public var abstractResponse: AbstractResponse?
 }
