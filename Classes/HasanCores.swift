@@ -15,7 +15,7 @@ public class HasanCores: NSObject {
     }
     
     
-    public class func login(deviceUniqueId: String, username: String, password: String, merchantCode: String, completion: @escaping(LoginRes) -> Void, onError: @escaping(Error)-> Void){
+    public class func login(deviceUniqueId: String, username: String, password: String, merchantCode: String, completion: @escaping(LoginResponse) -> Void, onError: @escaping(Error)-> Void){
     }
     
     
